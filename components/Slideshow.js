@@ -45,10 +45,10 @@ const Slideshow = () => {
 	return (
 		<div>
 			<div className={styles.top}><Marquee>
-			<pre className={styles.text}>Being Healthy & Fit Isn’t a Fad or a Trend, It’s a Lifestyle        Happiness is the path to health         The Faster You Run, The Sooner You’re Done</pre>
+			<pre className={styles.text}>Being Healthy & Fit Isn’t a Fad or a Trend, It’s a Lifestyle        Happiness is the path to health         The Faster You Run, The Sooner You’re Done        </pre>
 </Marquee> </div>
 <div className={styles.bottom}><Marquee>
-			<pre className={styles.text}>Keep Calm and Just Keep Moving        You cannot enjoy your wealth, if you cannot enjoy your health          To enjoy the glow of good health, you must exercise</pre>
+			<pre className={styles.text}>Keep Calm and Just Keep Moving        You cannot enjoy your wealth, if you cannot enjoy your health          To enjoy the glow of good health, you must exercise          </pre>
 </Marquee> </div>
 		<div className={styles.player1}>
 
