@@ -1,28 +1,50 @@
 .player1{
+    margin-top: 6%;
     background-color: white;    
     position: absolute;
     width: 25vw;
-    height: 100vh;
+    height: 50vh;
     justify-content: center;
 }
 .player2{
+    margin-top: 6%;
     background-color: white;    
     position: absolute;
     width: 25vw;
-    height: 100vh;
+    height: 50vh;
     left: 25vw;
+    justify-content: center;
 }
 .player3{
+    margin-top: 6%;
     background-color: white;
     position: absolute;
     width: 25vw;
-    height: 100vh;
+    height: 50vh;
     left: 50vw;
+    justify-content: center;
 }
 .player4{
+    margin-top: 6%;
     background-color: white;
     position: absolute;
     width: 25vw;
-    height: 100vh;
+    height: 50vh;
     left: 75vw;
+    justify-content: center;
+}
+.top{
+    position: absolute;
+    justify-content: center;
+    top: 5vh;
+    width: 100vw;
+}
+.bottom{
+    position: absolute;
+    justify-content: center;
+    top: 80vh;
+    width: 100vw;
+}
+.text{
+    font-size: 80px;
 }

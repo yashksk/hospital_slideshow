@@ -2,6 +2,7 @@ import React from "react";
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import styles from './Slideshow.module.css';
+import Marquee from "react-fast-marquee";
 
 const Slideshow = () => {
 	const images = [
@@ -43,13 +44,19 @@ const Slideshow = () => {
 	};
 	return (
 		<div>
+			<div className={styles.top}><Marquee>
+			<pre className={styles.text}>Being Healthy & Fit Isn’t a Fad or a Trend, It’s a Lifestyle        Happiness is the path to health         The Faster You Run, The Sooner You’re Done</pre>
+</Marquee> </div>
+<div className={styles.bottom}><Marquee>
+			<pre className={styles.text}>Keep Calm and Just Keep Moving        You cannot enjoy your wealth, if you cannot enjoy your health          To enjoy the glow of good health, you must exercise</pre>
+</Marquee> </div>
 		<div className={styles.player1}>
 
 			<Zoom {...zoomInProperties}>
 				{images.map((each, index) => (
 					<div key={index} className="flex justify-center w-full h-full">
 						<img
-							className="w-full object-cover"
+							className="w-9/10 object-cover"
 							src={each}
 						/>
 					</div>
@@ -62,7 +69,7 @@ const Slideshow = () => {
 				{images2.map((each, index) => (
 					<div key={index} className="flex justify-center w-full h-full">
 						<img
-							className="w-full object-cover"
+							className="w-9/10 object-cover"
 							src={each}
 						/>
 					</div>
@@ -75,7 +82,7 @@ const Slideshow = () => {
 				{images3.map((each, index) => (
 					<div key={index} className="flex justify-center w-full h-full">
 						<img
-							className="w-full object-cover"
+							className="w-9/10 object-cover"
 							src={each}
 						/>
 					</div>
@@ -88,7 +95,7 @@ const Slideshow = () => {
 				{images4.map((each, index) => (
 					<div key={index} className="flex justify-center w-full h-full">
 						<img
-							className="w-full object-cover"
+							className="w-9/10 object-cover"
 							src={each}
 						/>
 					</div>
