@@ -1,0 +1,28 @@
+.player1{
+    background-color: white;    
+    position: absolute;
+    width: 25vw;
+    height: 100vh;
+    justify-content: center;
+}
+.player2{
+    background-color: white;    
+    position: absolute;
+    width: 25vw;
+    height: 100vh;
+    left: 25vw;
+}
+.player3{
+    background-color: white;
+    position: absolute;
+    width: 25vw;
+    height: 100vh;
+    left: 50vw;
+}
+.player4{
+    background-color: white;
+    position: absolute;
+    width: 25vw;
+    height: 100vh;
+    left: 75vw;
+}
