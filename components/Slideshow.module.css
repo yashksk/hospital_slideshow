@@ -3,7 +3,7 @@
     background-color: white;    
     position: absolute;
     width: 25vw;
-    height: 50vh;
+    max-height: 50vh;
     justify-content: center;
 }
 .player2{
@@ -11,7 +11,7 @@
     background-color: white;    
     position: absolute;
     width: 25vw;
-    height: 50vh;
+    max-height: 50vh;
     left: 25vw;
     justify-content: center;
 }
@@ -20,7 +20,7 @@
     background-color: white;
     position: absolute;
     width: 25vw;
-    height: 50vh;
+    max-height: 50vh;
     left: 50vw;
     justify-content: center;
 }
@@ -29,9 +29,21 @@
     background-color: white;
     position: absolute;
     width: 25vw;
-    height: 50vh;
+    max-height: 50vh;
     left: 75vw;
     justify-content: center;
+}
+.player1 img{
+    max-height: 586px;
+}
+.player2 img{
+    max-height: 586px;
+}
+.player3 img{
+    max-height: 586px;
+}
+.player4 img{
+    max-height: 586px;
 }
 .top{
     position: absolute;
